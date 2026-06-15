@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background: #0d0e15;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 { 
+    margin: 0 0 15px 0; 
+    font-size: 28px; 
+    letter-spacing: 4px;
+    color: #00f0ff; 
+    text-shadow: 0 0 10px #00f0ff;
+}
+
+#gameContainer {
+    position: relative;
+}
+
+canvas {
+    border: 3px solid #323856;
+    border-radius: 8px;
+    background: #131722;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    cursor: none;
+}
+
+.instructions {
+    margin-top: 15px;
+    color: #656a8a;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
